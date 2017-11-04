@@ -16,4 +16,5 @@ excluded:
   - core.entity_view_display.commerce_product_variation.default.cart
   - core.entity_view_display.commerce_product_variation.default.summary
   - core.entity_form_mode.commerce_order_item.add_to_cart
+  - commerce_price.commerce_currency.INR
 required: true
