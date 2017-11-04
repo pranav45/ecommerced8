@@ -1,1 +1,8 @@
+excluded:
+  - field.storage.commerce_order.order_items
+  - field.storage.commerce_product.body
+  - field.storage.commerce_product.stores
+  - field.storage.commerce_product.variations
+  - commerce_product.commerce_product_type.default
+  - commerce_product.commerce_product_variation_type.default
 required: true

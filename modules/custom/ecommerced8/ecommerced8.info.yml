@@ -14,12 +14,16 @@ dependencies:
   - commerce_promotion
   - commerce_store
   - commerce_tax
+  - entity_reference_revisions
   - field
   - file
   - image
   - imagezoom
   - inline_entity_form
+  - options
   - path
+  - state_machine
   - taxonomy
   - text
+  - user
   - views
