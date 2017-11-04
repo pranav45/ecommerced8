@@ -1,0 +1,68 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.car_accessories
+    - field.field.commerce_product_variation.car_accessories.attribute_accessories
+    - field.field.commerce_product_variation.car_accessories.attribute_car_bike_type
+    - field.field.commerce_product_variation.car_accessories.attribute_color
+    - field.field.commerce_product_variation.car_accessories.field_images
+    - image.style.thumbnail
+  module:
+    - commerce_price
+    - image
+id: commerce_product_variation.car_accessories.default
+targetEntityType: commerce_product_variation
+bundle: car_accessories
+mode: default
+content:
+  attribute_accessories:
+    type: options_select
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  attribute_car_bike_type:
+    type: options_select
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  attribute_color:
+    type: options_select
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_images:
+    weight: 100
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  price:
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  sku:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 99
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

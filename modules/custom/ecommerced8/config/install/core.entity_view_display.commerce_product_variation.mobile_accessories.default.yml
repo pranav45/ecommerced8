@@ -1,0 +1,53 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.mobile_accessories
+    - field.field.commerce_product_variation.mobile_accessories.attribute_color
+    - field.field.commerce_product_variation.mobile_accessories.attribute_mobile_accessories
+    - field.field.commerce_product_variation.mobile_accessories.field_mobile_type
+    - field.field.commerce_product_variation.mobile_accessories.field_model
+  module:
+    - commerce_price
+    - imagezoom
+id: commerce_product_variation.mobile_accessories.default
+targetEntityType: commerce_product_variation
+bundle: mobile_accessories
+mode: default
+content:
+  field_mobile_type:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_model:
+    weight: 1
+    label: above
+    settings:
+      imagezoom_zoom_type: lens
+      imagezoom_display_style: ''
+      imagezoom_zoom_style: ''
+      imagezoom_disable_width: null
+      imagezoom_additional: ''
+      imagezoom_disable: false
+    third_party_settings: {  }
+    type: imagezoom
+    region: content
+  price:
+    label: above
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      display_currency_code: false
+    third_party_settings: {  }
+hidden:
+  attribute_color: true
+  attribute_mobile_accessories: true
+  product_id: true
+  sku: true
+  title: true

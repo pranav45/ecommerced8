@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tax_rate
+label: 'indian tax rate'
+plugin: custom
+configuration:
+  display_label: gst
+  round: true
+  rates:
+    -
+      id: 037ffb0e-7d61-47ab-a6d8-355f890e66d0
+      label: Mobile
+      percentage: '0.05'
+    -
+      id: 9a97ad64-2b73-453a-a917-babf65b094b9
+      label: 'Cars & bike'
+      percentage: '0.12'
+  territories:
+    -
+      country_code: IN
+      administrative_area: ''
+  display_inclusive: true

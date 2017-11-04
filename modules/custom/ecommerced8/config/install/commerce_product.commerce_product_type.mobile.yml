@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: mobile
+label: Mobile
+description: 'All Mobile model'
+variationType: mobile_accessories
+injectVariationFields: true
+traits: {  }

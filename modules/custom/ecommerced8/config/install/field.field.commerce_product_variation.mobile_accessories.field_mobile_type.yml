@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.mobile_accessories
+    - commerce_product.commerce_product_variation_type.mobile_accessories
+    - field.storage.commerce_product_variation.field_mobile_type
+id: commerce_product_variation.mobile_accessories.field_mobile_type
+field_name: field_mobile_type
+entity_type: commerce_product_variation
+bundle: mobile_accessories
+label: mobile
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_attribute_value'
+  handler_settings:
+    target_bundles:
+      mobile_accessories: mobile_accessories
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

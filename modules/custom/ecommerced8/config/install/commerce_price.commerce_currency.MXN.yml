@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: MXN
+name: 'Mexican Peso'
+numericCode: '484'
+symbol: MX$
+fractionDigits: 2

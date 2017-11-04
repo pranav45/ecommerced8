@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_paypal
+id: paypal_payment
+label: 'Paypal payment'
+weight: -10
+plugin: paypal_express_checkout
+configuration:
+  api_username: pranav.mainkar896-facilitator_api1.gmail.com
+  api_password: BCL4L6QJDFQYCHXZ
+  shipping_prompt: shipping_skip
+  signature: AxLFbLHygGS5WHaSHwjXqGuapAhmA2xHAAIGrxExLGrO9fpHYysTg4tG
+  solution_type: SoleBilling
+  display_label: PayPal
+  mode: test
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Category
+vid: category
+description: 'Available category list'
+hierarchy: 1
+weight: 0

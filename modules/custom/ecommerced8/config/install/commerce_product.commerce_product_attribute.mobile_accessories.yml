@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+id: mobile_accessories
+label: 'Mobile accessories'
+elementType: select

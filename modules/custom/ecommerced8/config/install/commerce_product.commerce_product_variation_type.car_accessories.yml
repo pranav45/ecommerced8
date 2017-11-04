@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: car_accessories
+label: 'Car & bike accessories'
+orderItemType: default
+generateTitle: true
+traits: {  }

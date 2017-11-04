@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: car_bike
+label: 'Car & bike'
+description: 'All Company car & bike model'
+variationType: car_accessories
+injectVariationFields: true
+traits: {  }
