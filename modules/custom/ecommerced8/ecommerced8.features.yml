@@ -5,4 +5,15 @@ excluded:
   - field.storage.commerce_product.variations
   - commerce_product.commerce_product_type.default
   - commerce_product.commerce_product_variation_type.default
+  - commerce_store.settings
+  - core.entity_form_display.commerce_order.default.default
+  - core.entity_form_display.commerce_order_item.default.add_to_cart
+  - core.entity_form_display.commerce_product.default.default
+  - core.entity_form_display.commerce_product_variation.default.default
+  - core.entity_view_display.commerce_order.default.default
+  - core.entity_view_display.commerce_order.default.user
+  - core.entity_view_display.commerce_product.default.default
+  - core.entity_view_display.commerce_product_variation.default.cart
+  - core.entity_view_display.commerce_product_variation.default.summary
+  - core.entity_form_mode.commerce_order_item.add_to_cart
 required: true
